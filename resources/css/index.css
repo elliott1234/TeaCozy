@@ -5,38 +5,44 @@ font-size: 22px;
 color: seashell;
 background-color: black;
 opacity: 0.9;
-align-items: center;
+margin-top: 0;
+padding-top: 0;
+
+}
+div {
+  
 }
 header {
+  display: flex;
+  align-items: center;
   background-color: black;
   position: fixed;
   border-bottom: 1px solid seashell;
   height: 69px;
+  width: 100%;
+  padding: 0px;
 }
-.header1 {
-  display: inline-flex;
-  text-align:center;
-  width: 1200px;
-  min-height: 69px;
-}
-.head {
-
-
+.head1 {
   height: 50px;
-
   margin-left: 10px;
+
 }
 .navigation {
-text-align:right;
-justify-content: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  margin-top: 12px;
+  display: flex;
+  margin-left: 800px;
+
 }
 
 #link {
   color: white;
+  margin: 10px;
 }
-
-
 .main {
+  margin-left: 50px;
   display:flex;
   align-items: center;
   width: 1200px;
@@ -57,4 +63,58 @@ justify-content: center;
 }
 #title {
   height:50px;
+
+}
+.tea{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  flex-wrap:wrap;
+}
+.picture {
+  margin: 5px;
+  text-align: center;
+}
+#description {
+  margin-top:10px;
+}
+.locations {
+  margin-left: 50px;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  background-image: url("../images/locations.JPG"); width: 1200; height: 500;
+}
+.address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.address1 {
+  width: 300px;
+  background-color: black;
+  color: white;
+  }
+.footer {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 1200px;
+  margin: 20px;
+}
+.phone {
+text-align: center;
 }
