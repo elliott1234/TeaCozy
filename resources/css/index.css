@@ -52,10 +52,6 @@ header {
   text-align: center;
   text-overflow: clip;
   height: 90px;
-
-}
-div {
-  border: solid 1px white;
 }
 .tea {
   width: 1000px;
