@@ -41,7 +41,7 @@ header {
   align-items: center;
   width: 1200px;
   height: 700px;
-  background-image: url("../images/main.JPG"); width: 1200; height: 700;
+  background-image: url(../images/mains.jpg); width: 1200px; height: 700px;
   background-color: black;
 }
 .text {
